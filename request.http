@@ -1,0 +1,51 @@
+DELETE http://localhost:8000/api/posts/61799933de309228cd6198cf
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTc5OThmOWRlMzA5MjI4Y2Q2MTk4Y2IiLCJpYXQiOjE2MzUzODMzNDZ9.KfhclK6F9ljsQwCrsJUsT7Y9thbQcaJGlHhw0ylR0Lw
+
+###
+PUT http://localhost:8000/api/posts/61799933de309228cd6198cf
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTc5OThmOWRlMzA5MjI4Y2Q2MTk4Y2IiLCJpYXQiOjE2MzUzODMzNDZ9.KfhclK6F9ljsQwCrsJUsT7Y9thbQcaJGlHhw0ylR0Lw
+
+{
+  "title": "Vue",
+  "description": "Happy",
+  "url": "org.vue",
+  "status": "LEARNED"
+}
+
+###
+GET http://localhost:8000/api/posts
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTc5OThmOWRlMzA5MjI4Y2Q2MTk4Y2IiLCJpYXQiOjE2MzUzNTg5ODZ9.epg5RX8-44Qq66PJAipAccoYHNyuD-cMmdc8-4ei5hs
+
+###
+POST http://localhost:8000/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "me",
+  "password": "bao3"
+}
+
+###
+POST http://localhost:8000/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "me",
+  "password": "bao3"
+}
+
+###
+POST http://localhost:8000/api/posts
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTc5OThmOWRlMzA5MjI4Y2Q2MTk4Y2IiLCJpYXQiOjE2MzUzNTg5ODZ9.epg5RX8-44Qq66PJAipAccoYHNyuD-cMmdc8-4ei5hs
+
+{
+  "title": "bao",
+  "description": "google",
+  "url": "google.com",
+  "status": "LEARNING"
+}
+
